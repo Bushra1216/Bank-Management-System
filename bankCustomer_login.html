@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="st.css" />
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="SignINN.php" method="POST" class="sign-in-form">
+          <h2 class="title">Sign in</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Enter Account No." name="text1" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="text2"  required />
+          </div>
+          <input type="submit" value="Login"  class="btn solid" />
+          <p style="display: flex;justify-content: center;align-items: center;margin-top: 20px;"><a href="custacdetlist.php" style="color: #4590ef;">Don't have an account? Create Account!</a></p>
+        </form>
+
+        
+       
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New here ?</h3>
+          <p>
+             Easy and Secure transaction with Trust. 
+           
+          </p>
+         
+        </div>
+        <img src="images/image2.svg" class="image" alt="" style="height: 57%; " />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>Have an account and hit the sign in ?</h3>
+          <p>
+           Sign in and get to explore with us
+          </p>
+          <button class="btn transparent" id="sign-in-btn">
+            Sign in
+          </button>
+        </div>
+        <img src="images/image3.svg" class="image" alt="" style="height:60%; width: 75%; " />
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <script src="jvafile.js"></script>
+</body>
+
+</html>
